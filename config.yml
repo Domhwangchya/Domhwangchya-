@@ -1,0 +1,49 @@
+baseURL: ""
+languageCode: en-us
+title: Domhwangchya!
+theme: PaperMod
+
+params:
+  cover:
+    linkFullImages: true
+
+  defaultTheme: "dark"
+  author: ["Domhwangchya -"]
+
+  homeInfoParams:
+    Title: Domhwangchya Blog
+    Content: Developer, IT, 도망쳐, 야근필수 ...
+  socialIcons:
+    - name: "Github"
+      url: "https://github.com/Domhwangchya"
+    - name: "Notion"
+      url: "<link2>"
+
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinkes: true
+
+menu:
+  main:
+    - identifier: all
+      name: All
+      url: /
+      weight: 30
+
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10
+
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+   
