@@ -6,22 +6,22 @@
 
 1. install hugo
 
-    - macos
+   - macos
 
-    ```
-    brew install hugo
-    ```
+     ```
+     brew install hugo
+     ```
 
 2. clone repository of PaperMod themes
 
-    ```
-    git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
-    ```
+   ```
+   git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
+   ```
 
 3. start server
 
-    ```
-    hugo server
-    ```
+   ```
+   hugo server
+   ```
 
 ### Posting
